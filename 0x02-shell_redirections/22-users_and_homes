@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%s => %s\n' "${(kv@)userdirs}"
+cat /etc/passwd | ls -l /home
