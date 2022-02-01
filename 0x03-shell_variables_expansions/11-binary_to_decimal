@@ -1,2 +1,2 @@
 #!/bin/bash
-printf -v foo "%d" $((2#BINARY)) | echo $foo
+ printf ("%s\n" $BINARY
