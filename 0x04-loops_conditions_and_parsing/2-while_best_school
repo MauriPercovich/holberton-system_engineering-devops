@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Display "Best School" 10 times
+param=0;
+while [ $param -lt 10 ]
+do
+	echo "Best School"
+	param=$((param + 1))
+done
