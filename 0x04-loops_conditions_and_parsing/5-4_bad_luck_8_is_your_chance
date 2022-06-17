@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This script from 1 to 10
+a=1
+while [ $a -le 10 ]
+do
+	if [ $((a%4)) -eq 0 ] && [ $((a%8)) -ne 0 ]
+	then
+		echo "bad luck"
+	elif [ $((a%8)) -eq 0 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	((a++))
+done
