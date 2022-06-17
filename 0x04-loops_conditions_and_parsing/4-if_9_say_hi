@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This until is displaying "Best School" 10 times
+imp=0
+while [ $imp -lt 10 ]
+do
+	echo "Best School"
+	if [ $imp -eq 8 ]
+	then
+		echo "Hi"
+	fi
+	((imp++))
+done
