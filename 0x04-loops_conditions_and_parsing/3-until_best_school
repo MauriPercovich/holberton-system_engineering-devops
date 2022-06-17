@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Use  "Best School" 10 times
+emp=0
+until [ $emp -ge 10 ]
+do
+	echo "Best School"
+	((emp++))
+done
